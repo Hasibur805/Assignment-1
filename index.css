@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Times, 'Times New Roman' sans-serif;
+}
+.banner {
+    background-image: url(media/image/Hero-bg.png);
+    height: 580px;
+    max-width: auto;
+    text-align: center;
+
+}
+.codder-image{
+    margin-top: 30px;
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.banner-description{
+    font-size: 18px;
+    color: #333;
+    margin-top: 50px;
+}
+.btn-primary{
+    background-color: darkslategrey;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 22px;
+    margin-top: 30px;
+}
