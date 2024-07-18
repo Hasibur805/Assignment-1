@@ -60,14 +60,45 @@
 .learn-more{
     border: 1px solid black;
     padding: 8px 12px;
-}
-.section-container a{    
-    margin-top: 20px;
+    
     text-decoration: none;
+}
+.learn-more a{    
+    margin-top: 20px;
     color: #333;
     border-radius: 3px;
 }
-.section-container a:hover{
+.learn-more:hover{
     background-color: #333;
     color: #fff;
+}
+.video{
+    height: 500px;
+    width: 100%;
+    align-items: center;
+}
+
+.last-section{
+    display: flex;
+    padding: 50px 50px;
+    gap: 30px;
+    align-items: center;
+}
+.html-field, .css-field, .javascript-field{
+    background-color:#faebd7;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.topic-container{
+    padding: 50px 100px;
+}
+.first-topic, .second-topic, .third-topic{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid #808080;
+    border-radius: 10px;
+    padding: 30px 30px;
+    margin-top: 20px;
 }
