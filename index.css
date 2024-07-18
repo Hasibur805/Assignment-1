@@ -102,3 +102,19 @@
     padding: 30px 30px;
     margin-top: 20px;
 }
+
+/* footer  */
+
+footer{
+    padding: 50px 100px;
+}
+.footer-image{
+    background-image: url(media/image/handshake.jpg);
+    height: 350px;
+    width: auto;
+    background-position: 100%;    
+    border-radius: 10px;
+}
+.fhead{
+    color: #fff;
+}
